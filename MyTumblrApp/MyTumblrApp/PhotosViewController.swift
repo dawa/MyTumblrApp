@@ -81,19 +81,19 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
             // photos is nil. Good thing we didn't try to unwrap it!
         }
         
-//        cell.textLabel?.text = "This is row \(indexPath.row)"
-        
         return cell
-    }
+    }    
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        let destinationViewController = segue.destination as! PhotoDetailsViewController
+        let cell = sender as! PhotoTableViewCell
+        destinationViewController.image = cell.imagePhotoView.image
+        
     }
-    */
+    
 
 }

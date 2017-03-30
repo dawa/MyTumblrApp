@@ -19,6 +19,7 @@
 		E7A1EF041E8C7C5200B2D403 /* MyTumblrAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1EF031E8C7C5200B2D403 /* MyTumblrAppTests.swift */; };
 		E7A1EF0F1E8C7C5200B2D403 /* MyTumblrAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1EF0E1E8C7C5200B2D403 /* MyTumblrAppUITests.swift */; };
 		E7A1EF1D1E8CA3DD00B2D403 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1EF1C1E8CA3DD00B2D403 /* PhotosViewController.swift */; };
+		E7A1EF1F1E8CAFFF00B2D403 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1EF1E1E8CAFFF00B2D403 /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		E7A1EF0E1E8C7C5200B2D403 /* MyTumblrAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTumblrAppUITests.swift; sourceTree = "<group>"; };
 		E7A1EF101E8C7C5200B2D403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7A1EF1C1E8CA3DD00B2D403 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		E7A1EF1E1E8CAFFF00B2D403 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				E7A1EEFA1E8C7C5200B2D403 /* Info.plist */,
 				E7A1EEF21E8C7C5200B2D403 /* MyTumblrApp.xcdatamodeld */,
 				E7A1EF1C1E8CA3DD00B2D403 /* PhotosViewController.swift */,
+				E7A1EF1E1E8CAFFF00B2D403 /* PhotoDetailsViewController.swift */,
 			);
 			path = MyTumblrApp;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31BFEDC61E8CA86E00983D68 /* PhotoTableViewCell.swift in Sources */,
+				E7A1EF1F1E8CAFFF00B2D403 /* PhotoDetailsViewController.swift in Sources */,
 				E7A1EF1D1E8CA3DD00B2D403 /* PhotosViewController.swift in Sources */,
 				E7A1EEF41E8C7C5200B2D403 /* MyTumblrApp.xcdatamodeld in Sources */,
 				E7A1EEEC1E8C7C5200B2D403 /* AppDelegate.swift in Sources */,
